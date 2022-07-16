@@ -1,0 +1,17 @@
+table{
+    text-align: center;
+    border-color: blue;
+    background-color: blue;
+}
+#arithmetic, #number, #result{
+    background-color: black;
+    color: white;
+    font-size: large;
+    width: 1cm;
+    height: 35px;
+}
+#result{
+    text-align: end;
+    color: black;
+    background-color: white;
+}

@@ -5,41 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
+    <link rel="stylesheet" href="./src/style.css">
+    <script src="./src/app.js"></script>
 </head>
 <body>
-    <table border="1" align="center">
+    <table border="20" align="center">
         <tr>
-          <th colspan="4">000000000000</th>
+          <th id="result" colspan="4">|</th>
         </tr>
         <tr>
-            <td>7</td>
-            <td>8</td>
-            <td>9</td>
-            <td>/ </td>
+            <td id="number" onclick="addNumber('7')">7</td>
+            <td id="number" onclick="addNumber('8')">8</td>
+            <td id="number" onclick="addNumber('9')">9</td>
+            <td id="arithmetic" onclick="arith('/')">/</td>
         </tr>
         <tr>
-            <td>4</td>
-            <td>5</td>
-            <td>6</td>
-            <td>%</td>
+            <td id="number" onclick="addNumber('4')">4</td>
+            <td id="number" onclick="addNumber('5')">5</td>
+            <td id="number" onclick="addNumber('6')">6</td>
+            <td id="arithmetic" onclick="arith('%')">%</td>
         </tr>
         <tr>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-            <td>-</td>
+            <td id="number" onclick="addNumber('1')">1</td>
+            <td id="number" onclick="addNumber('2')">2</td>
+            <td id="number" onclick="addNumber('3')">3</td>
+            <td id="arithmetic" onclick="arith('-')">-</td>
         </tr>
         <tr>
-            <td>.</td>
-            <td>0</td>
-            <td>=</td>
-            <td>+</td>
+            <td id="arithmetic" onclick="arith('.')">.</td>
+            <td id="number" onclick="addNumber('0')">0</td>
+            <td id="arithmetic" onclick="arith('=')">=</td>
+            <td id="arithmetic" onclick="arith('+')">+</td>
         </tr>
       </table>
-
-      <img 
-src="https://img.freepik.com/vetores-gratis/design-plano-de-calculadora_643961-61.jpg?w=2000" style="height:100px; position:fixed; bottom: 500px; right: 
-500px; z-index:99999;" data-selector="img">
+      <br><br><br>
+      <img src="https://img.freepik.com/vetores-gratis/design-plano-de-calculadora_643961-61.jpg?w=2000"  style="height:100px; bottom: 500px; right: 500px; z-index:99999;" data-selector="img">
 
 </body>
 </html>
