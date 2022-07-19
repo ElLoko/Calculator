@@ -1,17 +1,38 @@
+body{
+    background-color: rgba(0, 255, 255, 0.212);
+}
 table{
     text-align: center;
-    border-color: blue;
-    background-color: blue;
+    border-color: rgb(30, 108, 134);
+    background-color: rgb(30, 108, 134);
 }
-#arithmetic, #number, #result{
+#arithmetic, #number, #screen{
     background-color: black;
     color: white;
     font-size: large;
     width: 1cm;
     height: 35px;
 }
-#result{
+#screen{
     text-align: end;
     color: black;
     background-color: white;
+}
+#textBox{
+    font-weight: bold;
+    color: black;
+    top: 100px;
+    background-color: rgba(255, 255, 255, 0);
+    border-color: rgba(255, 255, 255, 0);   
+}
+#msg{
+    background-color: cyan;
+}
+#abc{
+    font-size: 20px;
+    color: red;
+    text-align: end;
+    height: -0.5cm;
+    width: -1cm;
+    background-color: cyan;
 }

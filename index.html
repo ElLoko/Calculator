@@ -11,7 +11,7 @@
 <body>
     <table border="20" align="center">
         <tr>
-          <th id="result" colspan="4">|</th>
+          <th id="screen" colspan="4" onclick="warnScreen()">|</th>
         </tr>
         <tr>
             <td id="number" onclick="addNumber('7')">7</td>
@@ -21,7 +21,7 @@
         </tr>
         <tr>
             <td id="number" onclick="addNumber('4')">4</td>
-            <td id="number" onclick="addNumber('5')">5</td>
+            <td id="number" onclick="addNumber('5')" onke>5</td>
             <td id="number" onclick="addNumber('6')">6</td>
             <td id="arithmetic" onclick="arith('%')">%</td>
         </tr>
@@ -38,7 +38,11 @@
             <td id="arithmetic" onclick="arith('+')">+</td>
         </tr>
       </table>
-      <br><br><br>
+        <dialog open id="textBox">
+            <div id="abc">X</div>
+            <div id="msg">The maximum is 18 characters</div>
+            </dialog>
+            <br><br><br>
       <img src="https://img.freepik.com/vetores-gratis/design-plano-de-calculadora_643961-61.jpg?w=2000"  style="height:100px; bottom: 500px; right: 500px; z-index:99999;" data-selector="img">
 
 </body>
